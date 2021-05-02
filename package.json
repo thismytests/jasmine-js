@@ -1,0 +1,27 @@
+{
+  "name": "front-preprod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "karma start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^3.6.7",
+    "browserify": "^17.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "karma": "^6.2.0",
+    "karma-browserify": "^8.0.0",
+    "karma-jasmine": "^4.0.1",
+    "karma-jasmine-html-reporter": "^1.5.4",
+    "nodemon": "^2.0.7",
+    "watchify": "^4.0.0",
+    "webpack": "^5.27.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-karma-jasmine": "^4.0.0"
+  }
+}
